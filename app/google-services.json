@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "632448503784",
+    "project_id": "login-signup-firebase-cd3e6",
+    "firebase_url": " https://login-signup-firebase-cd3e6-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "storage_bucket": "login-signup-firebase-cd3e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632448503784:android:a19b46cf26a69b70161e5d",
+        "android_client_info": {
+          "package_name": "com.example.savorsayapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD5nMAe0Dht5F8ppsGwvJo6xPmTNcH-Y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

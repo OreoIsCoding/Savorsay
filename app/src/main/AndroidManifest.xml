@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon_new"
+        android:label="SavorSay"
+        android:roundIcon="@mipmap/icon_new"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SavorSayApplication"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RestaurantsActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".ReviewInputActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".SettingsPrivacyActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity
+            android:name=".ChangePasswordActivity" />
+    </application>
+
+</manifest>

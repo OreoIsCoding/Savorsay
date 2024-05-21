@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_svg"
+        android:title="" />
+
+    <!-- Restaurants -->
+    <item
+        android:id="@+id/nav_restaurants"
+        android:icon="@drawable/restaurant_store"
+        android:title="" />
+
+    <!-- Profile -->
+    <item
+        android:id="@+id/menu_notifications"
+        android:icon="@drawable/notifications_icon"
+        android:title="" />
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/profile_round_1346_svgrepo_com"
+        android:title="" />
+</menu>

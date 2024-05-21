@@ -1,0 +1,6 @@
+<!-- divider.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#A8A8A8" /> <!-- Customize the color of the divider -->
+    <size android:height="1dp" /> <!-- Customize the height of the divider -->
+</shape>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="semiTransparentBackground">#00605D5D</color>
+    <color name="color_primary">#44E7FD</color>
+    <color name="red">#FFFF0000</color>
+    <color name="gray">#CCCCCC</color>
+
+    <!-- New color definitions for selected and unselected states -->
+    <color name="selected_item_color">#000000</color>
+    <color name="unselected_item_color">#CCCCCC</color>
+
+
+
+</resources>
